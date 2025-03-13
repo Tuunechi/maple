@@ -1,0 +1,314 @@
+@font-face {
+    font-family: "ink free";
+    src: url(./fonts/ink-free.ttf);
+}
+
+
+html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+body{
+    color: rgba(255, 255, 255, 1);
+    font-family: "ink free";
+    background-color: rgb(226, 222, 223);   
+}
+
+
+.bonzo-general-wrap{
+    width: 80%;
+}
+
+
+.contract-address{
+    color: black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero{
+    margin-top: 8vh;
+    
+}
+
+.hero-image-wrapper{
+    width: 100%;
+}
+
+.hero-main-image{
+    margin: auto;
+    display: flex;
+}
+
+.buy-bonzo{
+    position: absolute;
+    left: 25vw;
+}
+
+.join-telegram{
+    /* float: right; */
+    position: absolute;
+    right: 12vw;
+    top: 20vh;
+}
+
+.follow-twitter{
+    display: flex;
+    justify-content: center;
+    margin-top: -7%;
+}
+
+
+.about{
+    width: 70%;
+    margin: auto;
+    background-color:#D11E1E;
+    border-radius: 100px;
+}
+
+.about-header{
+    padding-top: 10vh;
+    padding-bottom:5vh;
+    width: 80%;
+    margin: auto;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about-bonzo{
+    width: 70%;
+    margin: auto;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.bonzonomics{
+    width: 80vw;
+    margin: auto;
+}
+
+.bonzonomics-header{
+    font-size: 3rem;
+    text-align: center;
+    color: #D11E1E;
+}
+
+.bonzonomics-wraper{
+    /* object-fit: contain; */
+    width: 90%;
+    margin:auto ;
+    background: rgba(8, 8, 56, 1);
+    border-radius: 100px;
+}
+
+.bonzonomics-items{
+    width: 80%;
+    margin-left:20% ;
+}
+.bonzonomics-item{
+    width: 35%;
+    margin-top: 5%;
+    /* margin-left: 20%; */
+}
+
+.bonzonomics-image{
+    width: 70%;
+    margin: auto;
+}
+
+.bonzonomics-footer-image{
+    margin-top: -40vh;
+}
+
+
+.footer-border-1{
+    height: 2vh;
+    background-color:rgba(8, 8, 56, 1); ;
+}
+
+.footer-border-2{
+    height: 2vh;
+    background: #D11E1E;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-main-image{
+        width: 80%;
+    }
+
+    .buy-bonzo{
+        left: 15vw;
+    }
+
+    .join-telegram{
+        top: 28vh;
+    }
+
+    .about-header{
+        font-size: 2.5rem;
+    }
+
+    .about{
+        width: 90%;
+    }
+
+    .bonzonomics-footer-image{
+        width: 28%;
+    }
+
+    .buy-bonzo img, .join-telegram img{
+      width: 70%;  
+    }
+
+    /* .follow-twitter{
+        width: 30%;
+    } */
+}
+@media screen and (max-width:800px) {
+    .join-telegram img{
+        width: 35vw;
+    }
+    .join-telegram{
+        left: 70vw;
+        top: 15vh;
+    }
+    .buy-bonzo img{
+        width: 35vw;
+    }
+    .buy-bonzo{
+        right: 70vw;
+        top: 15vh;
+    }
+
+    .bonzonomics{
+        width: 100%;
+    }
+
+    .bonzonomics-wraper{
+        border-radius: 5%
+    }
+    .bonzonomics-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .bonzonomics-item{
+        margin-top: unset;
+        width: 60%;
+    }
+
+    .bonzonomics-item:first-child{
+        margin-top: 5%;
+    }
+    .bonzonomics-item:last-child{
+        margin-top: -15%;
+    }
+    
+}
+
+
+@media screen and (max-width:500px) {
+    body{
+        overflow-x: hidden;
+    }
+
+
+    .hero-main-image{
+        width: 95%;
+    }
+
+
+    .contract-address{
+        font-size: .8rem;
+    }
+    .buy-bonzo{
+        top: 15vh;
+    }
+
+    .join-telegram{
+        left: 70vw;
+        top: 13vh;
+    }
+
+    /* .hero-main-image{
+        content: url("./images/landing-mobile.svg");
+    } */
+
+    .buy-bonzo{
+        top: 12vh;
+    }
+
+    .join-telegram{
+        top: 15vh;
+        right: 50vw;
+    }
+
+    .join-telegram img{
+        width: 40vw;
+    }
+
+    .follow-twitter{
+        margin-top: -6vh;
+    }
+
+    .follow-twitter img{
+        width: 40vw;
+    }
+
+    .about{
+        border-radius: 5%;
+        width: 90%;
+    }
+
+    .about-header{
+        font-size: 2.5rem;
+    }
+
+    .about-bonzo{
+        font-size: 1.3rem ;
+        width: 85%;
+    }
+
+
+    .bonzonomics-header{
+        font-size: 2.5rem;
+        /* margin-top: 15%; */
+    }
+
+    .bonzonomics-item{
+        margin-top: -5%;
+    }
+    /* .bonzonomics-image{
+        content: url("./images/footer-image-device.svg");
+    } */
+
+    .bonzonomics-footer-image{
+        width: 55%;
+        margin-top: -5vh;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .about-header{
+        padding-top: 5vh;
+        font-size: 1.5rem;
+        padding-bottom: 3vh;
+    }
+    .about-bonzo{
+        font-size: 1rem;
+    }
+}
