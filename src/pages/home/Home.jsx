@@ -1,13 +1,12 @@
 import React from 'react'
 import './home.css'
-import maple from './images/maple_logo.png'
+import maple from './images/grumpy.gif'
 import buyBonzo from './images/buy-maple.svg'
 // import footerDog from './images/dog.png'
 import followTwitter from './images/follow-twitter.svg'
 // import heroImage from './images/hero-main.png'
 import joinTelegram from './images/join-telegram.svg'
-// import heroImageMobile from './images/landing-mobile.svg'
-// import totalSupply from './images/total-supply.svg'
+import footer from './images/footer.png'
 import lp from './images/lp-burned.svg'
 import presale from './images/presale.svg'
 import ownership from './images/ownership.svg'
@@ -28,8 +27,8 @@ function Home() {
     </div>
 
     <div className="about">
-        <h2 className="about-header">The maple tarrif</h2>
-        <p className="about-bonzo">$MAPLETARIFF: A meme coin incorporating the iconic Canadian maple leaf, with a twist to reflect the tariff implications..</p>
+        <h2 className="about-header">The GRUMPY BEAR</h2>
+        <p className="about-bonzo">$GRUMYB: Just grumpy!!..</p>
     </div>
 
     <div className="bonzonomics">
@@ -43,7 +42,7 @@ function Home() {
               <img className="bonzonomics-item" src={ownership} alt="ownership" />
             </div>  
         </div>
-        <img className="bonzonomics-footer-image" src={maple} alt="dog"/>
+        <img className="bonzonomics-footer-image" src={footer} alt="dog"/>
         </div>
     </div>
     <footer> 
