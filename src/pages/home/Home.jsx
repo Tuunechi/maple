@@ -16,7 +16,7 @@ import ownership from './images/ownership.svg'
 function Home() {
   return (
     <div>
-        <h2 className="contract-address">Contract Address: T B A</h2>
+        <h2 className="contract-address">Contract Address: BPsGS6RyoKzAJ32An6Ub7Jkvr5w1z3hr8QeHx9z2pump</h2>
     <div className="hero"> 
         <a href="/" className="buy-bonzo"><img src={buyBonzo} alt="hero-group"/></a>
         <div className="hero-image-wrapper">
@@ -33,7 +33,7 @@ function Home() {
 
     <div className="bonzonomics">
         <div className="bonzonomics-wrapper">
-        <h2 className="bonzonomics-header">maplenomics</h2>
+        <h2 className="bonzonomics-header">Grumpnomics</h2>
         <div className="bonzonomics-wraper">
             <div className="bonzonomics-items">
               {/* <img className="bonzonomics-item" src={totalSupply} alt="total-supply" /> */}

@@ -18,7 +18,7 @@ a{
 body{
     color: rgba(255, 255, 255, 1);
     font-family: "ink free";
-    background-color: rgb(221, 230, 237);   
+    background-color:#d0d6db;   
 }
 
 
@@ -33,6 +33,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 
@@ -72,7 +73,7 @@ body{
 .about{
     width: 70%;
     margin: auto;
-    background-color:#D11E1E;
+    background-color:#165798;
     border-radius: 100px;
 }
 
@@ -101,14 +102,14 @@ body{
 .bonzonomics-header{
     font-size: 3rem;
     text-align: center;
-    color: #D11E1E;
+    color: #165798;
 }
 
 .bonzonomics-wraper{
     /* object-fit: contain; */
     width: 90%;
     margin:auto ;
-    background: rgba(8, 8, 56, 1);
+    background: #165798 ;
     border-radius: 100px;
 }
 
@@ -134,12 +135,13 @@ body{
 
 .footer-border-1{
     height: 2vh;
-    background-color:rgba(8, 8, 56, 1); ;
+    background-color:rgb(85, 85, 243); ;
 }
 
 .footer-border-2{
     height: 2vh;
-    background: #D11E1E;
+    background: #165798;
+;
 
 }
 
