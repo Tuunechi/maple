@@ -22,8 +22,8 @@ function Home() {
         <div className="hero-image-wrapper">
               <img className="hero-main-image" src={maple} alt="hero-group"/>
         </div>
-        <a href="https://t.me/marpletariffs" rel="noreferrer" target="_blank" className="join-telegram"><img src={joinTelegram} alt="hero-group"/></a>
-        <a href="https://x.com/MappleTa7?t=S5XLwdifUIbY3enGJBSGXg&s=09" rel="noreferrer" target="_blank" className="follow-twitter"><img src={followTwitter} alt="hero-group"/></a>
+        <a href="hhttps://t.me/grumpybear011" rel="noreferrer" target="_blank" className="join-telegram"><img src={joinTelegram} alt="hero-group"/></a>
+        <a href="https://x.com/Grumpybear0110?t=IHlHzMQyKz4dvT7SK3ZZag&s=09" rel="noreferrer" target="_blank" className="follow-twitter"><img src={followTwitter} alt="hero-group"/></a>
     </div>
 
     <div className="about">
